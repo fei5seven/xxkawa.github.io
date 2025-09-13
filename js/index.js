@@ -6,7 +6,7 @@ const savedc = localStorage.getItem('dbugc');
 const menuBtns = document.querySelectorAll('.menu-btn');
 const psBtns = document.querySelectorAll('.ps-btn');
 const plsbtn = document.querySelectorAll('.button-container button');
-const CURRENT_VERSION = '1.1.1 -update b18.6'; 
+const CURRENT_VERSION = '1.1.0 with glodhen2.4b18.6'; 
 
 fetch('/version.json', { cache: 'no-store' })
   .then(response => response.json())
